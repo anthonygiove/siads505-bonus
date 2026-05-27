@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Compare flight prices between the United States and Korea"
+    />
+    <title>US ↔ Korea Flight Prices</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__brand">
+          <span class="header__flag" aria-hidden="true">🇺🇸 ↔ 🇰🇷</span>
+          <div>
+            <h1>US ↔ Korea Flights</h1>
+            <p class="header__tagline">Search prices between the United States and Korea</p>
+          </div>
+        </div>
+        <button
+          type="button"
+          class="btn btn--ghost btn--icon"
+          id="settings-toggle"
+          aria-label="Settings"
+          title="API settings"
+        >
+          ⚙
+        </button>
+      </header>
+
+      <dialog id="settings-dialog" class="dialog">
+        <form method="dialog" class="dialog__form" id="settings-form">
+          <h2>API settings</h2>
+          <p class="dialog__hint">
+            Live prices need a small backend (Amadeus API). Deploy this repo to
+            <a href="https://vercel.com" target="_blank" rel="noopener">Vercel</a>
+            with <code>AMADEUS_API_KEY</code> and <code>AMADEUS_API_SECRET</code>,
+            or paste your deployed API base URL below.
+          </p>
+          <label class="field">
+            <span class="field__label">API base URL</span>
+            <input
+              type="url"
+              id="api-base-url"
+              name="apiBaseUrl"
+              placeholder="https://your-app.vercel.app"
+              autocomplete="off"
+            />
+          </label>
+          <div class="dialog__actions">
+            <button type="button" class="btn btn--ghost" id="settings-clear">
+              Clear
+            </button>
+            <button type="submit" class="btn btn--primary">Save</button>
+          </div>
+        </form>
+      </dialog>
+
+      <main>
+        <section class="card search-card" aria-labelledby="search-heading">
+          <h2 id="search-heading" class="visually-hidden">Search flights</h2>
+
+          <fieldset class="direction-fieldset">
+            <legend class="field__label">Direction</legend>
+            <div class="direction-toggle" role="radiogroup" aria-label="Trip direction">
+              <label class="direction-toggle__option">
+                <input type="radio" name="direction" value="us-to-kr" checked />
+                <span>US → Korea</span>
+              </label>
+              <label class="direction-toggle__option">
+                <input type="radio" name="direction" value="kr-to-us" />
+                <span>Korea → US</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="search-grid">
+            <label class="field">
+              <span class="field__label">From</span>
+              <select id="origin-airport" name="origin" required></select>
+            </label>
+            <label class="field">
+              <span class="field__label">To</span>
+              <select id="destination-airport" name="destination" required></select>
+            </label>
+            <label class="field">
+              <span class="field__label">Departure date</span>
+              <input type="date" id="departure-date" name="departure" required />
+            </label>
+            <label class="field">
+              <span class="field__label">Return date</span>
+              <input type="date" id="return-date" name="return" required />
+            </label>
+            <label class="field field--narrow">
+              <span class="field__label">Adults</span>
+              <input
+                type="number"
+                id="adults"
+                name="adults"
+                min="1"
+                max="9"
+                value="1"
+                required
+              />
+            </label>
+          </div>
+
+          <div class="search-actions">
+            <button type="button" class="btn btn--primary btn--large" id="search-btn">
+              Search flights
+            </button>
+            <button type="button" class="btn btn--secondary" id="swap-airports" title="Swap airports">
+              ⇄ Swap
+            </button>
+          </div>
+        </section>
+
+        <div id="status" class="status" role="status" aria-live="polite" hidden></div>
+
+        <section id="external-links" class="card links-card" hidden>
+          <h2>Search on booking sites</h2>
+          <p class="links-card__hint">
+            Open these links for live fares (works without API setup).
+          </p>
+          <div class="link-buttons" id="link-buttons"></div>
+        </section>
+
+        <section id="results-section" class="results" hidden>
+          <div class="results__header">
+            <h2 id="results-title">Flight offers</h2>
+            <span id="results-meta" class="results__meta"></span>
+          </div>
+          <ul id="results-list" class="results__list"></ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>
+          Hosted on GitHub Pages ·
+          <a href="https://developers.amadeus.com" target="_blank" rel="noopener"
+            >Amadeus</a
+          >
+          flight data when API is configured
+        </p>
+      </footer>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
