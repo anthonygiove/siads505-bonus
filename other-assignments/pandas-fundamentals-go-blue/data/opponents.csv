@@ -1,0 +1,33 @@
+opponent,conference,mascot,home_state,home_stadium,stadium_capacity,founded,is_rival
+Air Force,Mountain West,Falcons,CO,Falcon Stadium,46692,1954,False
+Akron,MAC,Zips,OH,InfoCision Stadium,30000,1870,False
+Alabama,SEC,Crimson Tide,AL,Bryant-Denny Stadium,100077,1831,False
+Appalachian State,Sun Belt,Mountaineers,NC,Kidd Brewer Stadium,30000,1899,False
+Boston College,ACC,Eagles,MA,Alumni Stadium,44500,1863,False
+Bowling Green,MAC,Falcons,OH,Doyt Perry Stadium,24000,1910,False
+Central Michigan,MAC,Chippewas,MI,Kelly/Shorts Stadium,30255,1892,False
+Colorado,Pac-12,Buffaloes,CO,Folsom Field,50183,1876,False
+Eastern Michigan,MAC,Eagles,MI,Rynearson Stadium,30200,1849,False
+Florida,SEC,Gators,FL,Ben Hill Griffin Stadium,88548,1853,False
+Hawaii,Mountain West,Rainbow Warriors,HI,Ching Complex,15000,1907,False
+Illinois,Big Ten,Fighting Illini,IL,Memorial Stadium,60670,1867,False
+Indiana,Big Ten,Hoosiers,IN,Memorial Stadium,52626,1820,False
+Iowa,Big Ten,Hawkeyes,IA,Kinnick Stadium,69250,1847,False
+Maryland,Big Ten,Terrapins,MD,SECU Stadium,51802,1856,False
+Miami (OH),MAC,RedHawks,OH,Yager Stadium,24286,1809,False
+Michigan State,Big Ten,Spartans,MI,Spartan Stadium,75005,1855,True
+Minnesota,Big Ten,Golden Gophers,MN,Huntington Bank Stadium,50805,1851,False
+Nebraska,Big Ten,Cornhuskers,NE,Memorial Stadium,85458,1869,False
+Northwestern,Big Ten,Wildcats,IL,Ryan Field,47330,1851,False
+Notre Dame,Independent,Fighting Irish,IN,Notre Dame Stadium,77622,1842,True
+Ohio State,Big Ten,Buckeyes,OH,Ohio Stadium,102780,1870,True
+Oregon,Pac-12,Ducks,OR,Autzen Stadium,54000,1876,False
+Penn State,Big Ten,Nittany Lions,PA,Beaver Stadium,106572,1855,False
+Purdue,Big Ten,Boilermakers,IN,Ross-Ade Stadium,57236,1869,False
+Rutgers,Big Ten,Scarlet Knights,NJ,SHI Stadium,52454,1766,False
+UNLV,Mountain West,Rebels,NV,Allegiant Stadium,65000,1957,False
+Utah,Pac-12,Utes,UT,Rice-Eccles Stadium,51444,1850,False
+Virginia Tech,ACC,Hokies,VA,Lane Stadium,65632,1872,False
+Washington,Pac-12,Huskies,WA,Husky Stadium,70138,1861,False
+Western Michigan,MAC,Broncos,MI,Waldo Stadium,30200,1903,False
+Wisconsin,Big Ten,Badgers,WI,Camp Randall Stadium,75822,1848,False

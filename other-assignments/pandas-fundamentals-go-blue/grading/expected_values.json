@@ -1,0 +1,418 @@
+{
+  "q10_weather_scoring": {
+    "columns": [
+      "Away",
+      "Home",
+      "Neutral"
+    ],
+    "data": [
+      [
+        33.4,
+        29.92,
+        29.25
+      ],
+      [
+        27.44,
+        36.24,
+        36.0
+      ],
+      [
+        30.36,
+        32.0,
+        31.33
+      ],
+      [
+        21.0,
+        41.5,
+        null
+      ],
+      [
+        21.94,
+        36.44,
+        33.83
+      ],
+      [
+        16.67,
+        19.5,
+        27.0
+      ]
+    ],
+    "index": [
+      "Cloudy",
+      "Overcast",
+      "Rain",
+      "Snow",
+      "Sunny",
+      "Windy"
+    ],
+    "index_name": "weather",
+    "kind": "DataFrame"
+  },
+  "q1_load_games": {
+    "columns": [
+      "season",
+      "week",
+      "opponent",
+      "site"
+    ],
+    "data": [
+      [
+        2010,
+        1,
+        "Appalachian State",
+        "Away"
+      ],
+      [
+        2010,
+        2,
+        "Indiana",
+        "Neutral"
+      ],
+      [
+        2010,
+        3,
+        "Wisconsin",
+        "Away"
+      ]
+    ],
+    "index": [
+      "2010-W01",
+      "2010-W02",
+      "2010-W03"
+    ],
+    "index_name": "game_id",
+    "kind": "DataFrame"
+  },
+  "q1_shape": {
+    "kind": "tuple",
+    "values": [
+      195,
+      15
+    ]
+  },
+  "q2_add_result_columns": {
+    "columns": [
+      "point_diff",
+      "total_points",
+      "won"
+    ],
+    "data": [
+      [
+        3,
+        27,
+        true
+      ],
+      [
+        21,
+        45,
+        true
+      ],
+      [
+        -18,
+        30,
+        false
+      ],
+      [
+        -2,
+        46,
+        false
+      ],
+      [
+        -21,
+        41,
+        false
+      ]
+    ],
+    "index": [
+      "2010-W01",
+      "2010-W02",
+      "2010-W03",
+      "2010-W04",
+      "2010-W05"
+    ],
+    "index_name": "game_id",
+    "kind": "DataFrame"
+  },
+  "q3_best_and_worst": {
+    "kind": "tuple",
+    "values": [
+      "2022-W10",
+      "2011-W13"
+    ]
+  },
+  "q4_mean": {
+    "kind": "scalar",
+    "value": 166.1117
+  },
+  "q4_ticket_prices": {
+    "index": [
+      "2010-W01",
+      "2010-W02",
+      "2010-W03",
+      "2010-W04",
+      "2010-W05"
+    ],
+    "index_name": "game_id",
+    "kind": "Series",
+    "name": "ticket_price",
+    "values": [
+      81.92,
+      130.13,
+      148.64,
+      175.3,
+      125.41
+    ]
+  },
+  "q5_season_report_card": {
+    "columns": [
+      "wins",
+      "losses",
+      "points_for",
+      "points_against",
+      "win_pct"
+    ],
+    "data": [
+      [
+        7.0,
+        6.0,
+        306.0,
+        304.0,
+        0.538
+      ],
+      [
+        9.0,
+        4.0,
+        373.0,
+        273.0,
+        0.692
+      ],
+      [
+        10.0,
+        3.0,
+        393.0,
+        220.0,
+        0.769
+      ],
+      [
+        7.0,
+        6.0,
+        345.0,
+        284.0,
+        0.538
+      ],
+      [
+        8.0,
+        5.0,
+        331.0,
+        326.0,
+        0.615
+      ],
+      [
+        11.0,
+        2.0,
+        407.0,
+        244.0,
+        0.846
+      ],
+      [
+        11.0,
+        2.0,
+        486.0,
+        211.0,
+        0.846
+      ],
+      [
+        7.0,
+        6.0,
+        338.0,
+        297.0,
+        0.538
+      ],
+      [
+        9.0,
+        4.0,
+        435.0,
+        289.0,
+        0.692
+      ],
+      [
+        9.0,
+        4.0,
+        432.0,
+        293.0,
+        0.692
+      ],
+      [
+        6.0,
+        7.0,
+        280.0,
+        323.0,
+        0.462
+      ],
+      [
+        12.0,
+        1.0,
+        496.0,
+        131.0,
+        0.923
+      ],
+      [
+        12.0,
+        1.0,
+        501.0,
+        153.0,
+        0.923
+      ],
+      [
+        13.0,
+        0.0,
+        551.0,
+        188.0,
+        1.0
+      ],
+      [
+        9.0,
+        4.0,
+        358.0,
+        267.0,
+        0.692
+      ]
+    ],
+    "index": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "index_name": "season",
+    "kind": "DataFrame"
+  },
+  "q6_night_game_split": {
+    "index": [
+      "Day",
+      "Night"
+    ],
+    "index_name": "time_of_day",
+    "kind": "Series",
+    "name": "win_pct",
+    "values": [
+      0.717,
+      0.719
+    ]
+  },
+  "q7_filled_attendance_mean": {
+    "kind": "scalar",
+    "value": 85729.1718
+  },
+  "q8_record_by_conference": {
+    "columns": [
+      "games",
+      "wins",
+      "win_pct"
+    ],
+    "data": [
+      [
+        20.0,
+        20.0,
+        1.0
+      ],
+      [
+        4.0,
+        4.0,
+        1.0
+      ],
+      [
+        8.0,
+        7.0,
+        0.875
+      ],
+      [
+        5.0,
+        4.0,
+        0.8
+      ],
+      [
+        135.0,
+        93.0,
+        0.689
+      ],
+      [
+        12.0,
+        8.0,
+        0.667
+      ],
+      [
+        8.0,
+        3.0,
+        0.375
+      ],
+      [
+        3.0,
+        1.0,
+        0.333
+      ]
+    ],
+    "index": [
+      "MAC",
+      "Sun Belt",
+      "Mountain West",
+      "ACC",
+      "Big Ten",
+      "Pac-12",
+      "SEC",
+      "Independent"
+    ],
+    "index_name": "conference",
+    "kind": "DataFrame"
+  },
+  "q9_rivalry_report": {
+    "columns": [
+      "games",
+      "wins",
+      "losses",
+      "win_pct",
+      "avg_point_diff"
+    ],
+    "data": [
+      [
+        12.0,
+        6.0,
+        6.0,
+        0.5,
+        1.33
+      ],
+      [
+        3.0,
+        1.0,
+        2.0,
+        0.333,
+        -5.33
+      ],
+      [
+        15.0,
+        4.0,
+        11.0,
+        0.267,
+        -14.13
+      ]
+    ],
+    "index": [
+      "Michigan State",
+      "Notre Dame",
+      "Ohio State"
+    ],
+    "index_name": "opponent",
+    "kind": "DataFrame"
+  }
+}
