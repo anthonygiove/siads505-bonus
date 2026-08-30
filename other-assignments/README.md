@@ -9,10 +9,16 @@ single folder, with a README explaining how to hand it out and how to grade it.
 | 1 | [🏈 Go Blue: A Pandas Data Exploration](pandas-fundamentals-go-blue/) | pandas fundamentals & Python data manipulation | 100 |
 | 2 | [🏀 Hardwood: Grouping, Windows & Reshaping](pandas-grouping-hardwood/) | MultiIndexes, named aggregation, window functions, ranking, streaks | 100 |
 | 3 | [🏒 The Yost Feed: Regex, Text & Time](pandas-text-parsing-yost/) | regular expressions, string extraction, clock arithmetic | 100 |
+| 4 | [📺 Yada Yada Data: Text, Ambiguity & Defensible Choices](pandas-open-ended-seinfeld/) | regex on prose, and five questions with no right answer | 100 |
 
 They are meant to be done in order — each one assumes the previous one's
 vocabulary and then adds to it — but the data and the autograders are
 completely independent, so any of them can be assigned on its own.
+
+Assignment 4 is the odd one out and belongs last: half of its questions have no
+right answer, and are graded on whether the student exposed their choice as an
+argument, declared a defensible default, and wrote down what it cost them. See
+its README for how that is made gradeable.
 
 ## How these are built
 
