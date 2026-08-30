@@ -1,0 +1,9 @@
+# Students only need pandas; the rest is for running and grading notebooks.
+pandas>=2.0
+numpy>=1.24
+
+# Optional: the ungraded victory-lap chart at the end of the notebook.
+matplotlib>=3.7
+
+# Instructor-side: the autograder reads .ipynb files with nbformat.
+nbformat>=5.7

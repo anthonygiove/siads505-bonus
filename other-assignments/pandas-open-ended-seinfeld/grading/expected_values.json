@@ -1,0 +1,561 @@
+{
+  "q1_characters_shape": {
+    "kind": "tuple",
+    "values": [
+      34,
+      4
+    ]
+  },
+  "q1_episodes_shape": {
+    "kind": "tuple",
+    "values": [
+      180,
+      10
+    ]
+  },
+  "q1_lines_shape": {
+    "kind": "tuple",
+    "values": [
+      26389,
+      6
+    ]
+  },
+  "q2_clean_speakers": {
+    "index": [
+      "L00001",
+      "L00002",
+      "L00003",
+      "L00004",
+      "L00005",
+      "L00006",
+      "L00007",
+      "L00008"
+    ],
+    "index_name": "line_id",
+    "kind": "Series",
+    "name": "speaker_clean",
+    "values": [
+      "JERRY",
+      "KRAMER",
+      "KRAMER",
+      "JERRY",
+      "JERRY",
+      "JERRY",
+      "JERRY",
+      "JERRY"
+    ]
+  },
+  "q2_distinct": {
+    "kind": "scalar",
+    "value": 89
+  },
+  "q3_total": {
+    "kind": "scalar",
+    "value": 229145
+  },
+  "q3_word_counts": {
+    "index": [
+      "L00001",
+      "L00002",
+      "L00003",
+      "L00004",
+      "L00005",
+      "L00006",
+      "L00007",
+      "L00008"
+    ],
+    "index_name": "line_id",
+    "kind": "Series",
+    "name": "word_count",
+    "values": [
+      9,
+      12,
+      9,
+      10,
+      8,
+      9,
+      13,
+      0
+    ]
+  },
+  "q4_speaking_share": {
+    "columns": [
+      "JERRY",
+      "GEORGE",
+      "ELAINE",
+      "KRAMER"
+    ],
+    "data": [
+      [
+        0.371,
+        0.466,
+        0.0,
+        0.147
+      ],
+      [
+        0.404,
+        0.298,
+        0.0,
+        0.281
+      ],
+      [
+        0.488,
+        0.214,
+        0.0,
+        0.292
+      ],
+      [
+        0.456,
+        0.255,
+        0.0,
+        0.289
+      ],
+      [
+        0.389,
+        0.414,
+        0.0,
+        0.179
+      ],
+      [
+        0.426,
+        0.259,
+        0.117,
+        0.188
+      ],
+      [
+        0.385,
+        0.214,
+        0.246,
+        0.15
+      ],
+      [
+        0.458,
+        0.285,
+        0.118,
+        0.132
+      ]
+    ],
+    "index": [
+      "S01E01",
+      "S01E02",
+      "S01E03",
+      "S01E04",
+      "S01E05",
+      "S02E01",
+      "S02E02",
+      "S02E03"
+    ],
+    "index_name": "episode_id",
+    "kind": "DataFrame"
+  },
+  "q5_episode_cast_1": {
+    "columns": [
+      "cast_size",
+      "cast"
+    ],
+    "data": [
+      [
+        4,
+        "GEORGE, JERRY, KRAMER, NEIGHBOR"
+      ],
+      [
+        5,
+        "GEORGE, GEORGE AND CLERK, JERRY, KRAMER, WAITRESS"
+      ],
+      [
+        4,
+        "GEORGE, JERRY, KRAMER, KRAMER AND JERRY"
+      ],
+      [
+        3,
+        "GEORGE, JERRY, KRAMER"
+      ],
+      [
+        6,
+        "GEORGE, GEORGE & WAITRESS, JERRY, KRAMER, KRAMER & JERRY, MAN"
+      ],
+      [
+        6,
+        "CAB DRIVER, CLERK, ELAINE, GEORGE, JERRY, KRAMER"
+      ]
+    ],
+    "index": [
+      "S01E01",
+      "S01E02",
+      "S01E03",
+      "S01E04",
+      "S01E05",
+      "S02E01"
+    ],
+    "index_name": "episode_id",
+    "kind": "DataFrame"
+  },
+  "q5_episode_cast_12": {
+    "columns": [
+      "cast_size",
+      "cast"
+    ],
+    "data": [
+      [
+        3,
+        "GEORGE, JERRY, KRAMER"
+      ],
+      [
+        3,
+        "GEORGE, JERRY, KRAMER"
+      ],
+      [
+        3,
+        "GEORGE, JERRY, KRAMER"
+      ],
+      [
+        3,
+        "GEORGE, JERRY, KRAMER"
+      ],
+      [
+        3,
+        "GEORGE, JERRY, KRAMER"
+      ],
+      [
+        4,
+        "ELAINE, GEORGE, JERRY, KRAMER"
+      ]
+    ],
+    "index": [
+      "S01E01",
+      "S01E02",
+      "S01E03",
+      "S01E04",
+      "S01E05",
+      "S02E01"
+    ],
+    "index_name": "episode_id",
+    "kind": "DataFrame"
+  },
+  "q5_episode_cast_3": {
+    "columns": [
+      "cast_size",
+      "cast"
+    ],
+    "data": [
+      [
+        3,
+        "GEORGE, JERRY, KRAMER"
+      ],
+      [
+        3,
+        "GEORGE, JERRY, KRAMER"
+      ],
+      [
+        3,
+        "GEORGE, JERRY, KRAMER"
+      ],
+      [
+        3,
+        "GEORGE, JERRY, KRAMER"
+      ],
+      [
+        3,
+        "GEORGE, JERRY, KRAMER"
+      ],
+      [
+        4,
+        "ELAINE, GEORGE, JERRY, KRAMER"
+      ]
+    ],
+    "index": [
+      "S01E01",
+      "S01E02",
+      "S01E03",
+      "S01E04",
+      "S01E05",
+      "S02E01"
+    ],
+    "index_name": "episode_id",
+    "kind": "DataFrame"
+  },
+  "q6_filled_viewers_global_median": {
+    "kind": "scalar",
+    "value": 4456.41
+  },
+  "q6_filled_viewers_neighbours": {
+    "kind": "scalar",
+    "value": 4438.985
+  },
+  "q6_filled_viewers_season_median": {
+    "kind": "scalar",
+    "value": 4435.96
+  },
+  "q7_phrase_counts_cs0_ww0": {
+    "index": [
+      "yada yada",
+      "Giddy up",
+      "her",
+      "Newman",
+      "serenity now",
+      "soup nazi"
+    ],
+    "index_name": "phrase",
+    "kind": "Series",
+    "name": "occurrences",
+    "values": [
+      177,
+      549,
+      2183,
+      476,
+      58,
+      0
+    ]
+  },
+  "q7_phrase_counts_cs0_ww1": {
+    "index": [
+      "yada yada",
+      "Giddy up",
+      "her",
+      "Newman",
+      "serenity now",
+      "soup nazi"
+    ],
+    "index_name": "phrase",
+    "kind": "Series",
+    "name": "occurrences",
+    "values": [
+      177,
+      549,
+      0,
+      476,
+      58,
+      0
+    ]
+  },
+  "q7_phrase_counts_cs1_ww0": {
+    "index": [
+      "yada yada",
+      "Giddy up",
+      "her",
+      "Newman",
+      "serenity now",
+      "soup nazi"
+    ],
+    "index_name": "phrase",
+    "kind": "Series",
+    "name": "occurrences",
+    "values": [
+      177,
+      514,
+      2183,
+      454,
+      58,
+      0
+    ]
+  },
+  "q7_phrase_counts_cs1_ww1": {
+    "index": [
+      "yada yada",
+      "Giddy up",
+      "her",
+      "Newman",
+      "serenity now",
+      "soup nazi"
+    ],
+    "index_name": "phrase",
+    "kind": "Series",
+    "name": "occurrences",
+    "values": [
+      177,
+      514,
+      0,
+      454,
+      58,
+      0
+    ]
+  },
+  "q8_writer_credits_full": {
+    "index": [
+      "Alec Berg",
+      "Andy Robin",
+      "Bruce Kirschbaum",
+      "Carol Leifer",
+      "David Mandel",
+      "Elaine Pope",
+      "Gregg Kavet",
+      "Jeff Schaffer",
+      "Jennifer Crittenden",
+      "Jerry Seinfeld",
+      "Larry Charles",
+      "Larry David",
+      "Marjorie Gross",
+      "Max Pross",
+      "Peter Mehlman",
+      "Spike Feresten",
+      "Steve Koren",
+      "Tom Gammill"
+    ],
+    "index_name": "writer",
+    "kind": "Series",
+    "name": "credits",
+    "values": [
+      10.0,
+      10.0,
+      2.0,
+      7.0,
+      9.0,
+      2.0,
+      10.0,
+      12.0,
+      9.0,
+      31.0,
+      10.0,
+      63.0,
+      6.0,
+      15.0,
+      16.0,
+      8.0,
+      9.0,
+      16.0
+    ]
+  },
+  "q8_writer_credits_split": {
+    "index": [
+      "Alec Berg",
+      "Andy Robin",
+      "Bruce Kirschbaum",
+      "Carol Leifer",
+      "David Mandel",
+      "Elaine Pope",
+      "Gregg Kavet",
+      "Jeff Schaffer",
+      "Jennifer Crittenden",
+      "Jerry Seinfeld",
+      "Larry Charles",
+      "Larry David",
+      "Marjorie Gross",
+      "Max Pross",
+      "Peter Mehlman",
+      "Spike Feresten",
+      "Steve Koren",
+      "Tom Gammill"
+    ],
+    "index_name": "writer",
+    "kind": "Series",
+    "name": "credits",
+    "values": [
+      7.0,
+      7.5,
+      1.5,
+      6.0,
+      6.0,
+      1.5,
+      7.0,
+      9.0,
+      6.5,
+      24.5,
+      6.0,
+      47.0,
+      4.5,
+      10.5,
+      11.5,
+      5.5,
+      6.5,
+      12.0
+    ]
+  },
+  "q9_scene_pairs": {
+    "columns": [
+      "scenes"
+    ],
+    "data": [
+      [
+        1243
+      ],
+      [
+        1053
+      ],
+      [
+        976
+      ],
+      [
+        899
+      ],
+      [
+        778
+      ],
+      [
+        658
+      ],
+      [
+        29
+      ],
+      [
+        24
+      ],
+      [
+        23
+      ],
+      [
+        22
+      ],
+      [
+        17
+      ],
+      [
+        16
+      ]
+    ],
+    "index": [
+      [
+        "GEORGE",
+        "JERRY"
+      ],
+      [
+        "ELAINE",
+        "JERRY"
+      ],
+      [
+        "ELAINE",
+        "GEORGE"
+      ],
+      [
+        "JERRY",
+        "KRAMER"
+      ],
+      [
+        "GEORGE",
+        "KRAMER"
+      ],
+      [
+        "ELAINE",
+        "KRAMER"
+      ],
+      [
+        "JERRY",
+        "NEWMAN"
+      ],
+      [
+        "GEORGE",
+        "NEWMAN"
+      ],
+      [
+        "KRAMER",
+        "NEWMAN"
+      ],
+      [
+        "ELAINE",
+        "NEWMAN"
+      ],
+      [
+        "ESTELLE",
+        "JERRY"
+      ],
+      [
+        "ESTELLE",
+        "GEORGE"
+      ]
+    ],
+    "index_name": [
+      "character_a",
+      "character_b"
+    ],
+    "kind": "DataFrame"
+  }
+}

@@ -1,0 +1,151 @@
+season,player_id,player,jersey,position,class,height_in,hometown,dressed
+2015,P001,Desmond Farrier,4,F,Fr,77,"St. Louis, MO",True
+2015,P002,Trey Ibarra,52,F,Fr,79,"Phoenix, AZ",True
+2015,P003,Caleb Stankovic,20,F,Fr,78,"Brooklyn, NY",True
+2015,P004,Silas Baptiste,11,G,Fr,75,"Louisville, KY",True
+2015,P005,Nolan Abrams,25,G,So,71,"Houston, TX",True
+2015,P006,Tobias Delacroix,24,C,So,81,"Milwaukee, WI",True
+2015,P007,Owen Quintero,50,G,So,73,"Toronto, ON",True
+2015,P009,Cole Yamamoto,16,F,Jr,77,"Brooklyn, NY",True
+2015,P011,Moussa Novotny,46,F,Sr,77,"Chicago, IL",True
+2015,P012,Marcus Jankowski,34,F,Sr,77,"Detroit, MI",True
+2015,P013,Quentin Fontaine,49,C,Sr,83,"Ann Arbor, MI",True
+2015,P014,Zavier Delacroix,10,G,Fr,75,"Minneapolis, MN",True
+2015,P015,Ronan Halvorsen,37,C,Fr,81,"Cleveland, OH",True
+2015,P016,Cole Zielinski,8,F,Fr,78,"Brooklyn, NY",False
+2015,P017,Vaughn Stankovic,36,G,Fr,75,"St. Louis, MO",False
+2016,P001,Desmond Farrier,4,F,So,77,"St. Louis, MO",True
+2016,P002,Trey Ibarra,52,F,So,79,"Phoenix, AZ",True
+2016,P004,Silas Baptiste,11,G,So,75,"Louisville, KY",True
+2016,P005,Nolan Abrams,25,G,Jr,71,"Houston, TX",True
+2016,P006,Tobias Delacroix,24,C,Jr,81,"Milwaukee, WI",True
+2016,P007,Owen Quintero,50,G,Jr,73,"Toronto, ON",True
+2016,P009,Cole Yamamoto,16,F,Sr,77,"Brooklyn, NY",True
+2016,P014,Zavier Delacroix,10,G,So,75,"Minneapolis, MN",True
+2016,P016,Cole Zielinski,8,F,So,78,"Brooklyn, NY",True
+2016,P018,Kobe Kalinowski,49,G,Fr,71,"Phoenix, AZ",True
+2016,P019,Terrance Eskridge,45,C,Fr,80,"Indianapolis, IN",True
+2016,P020,Kobe Zielinski,27,F,Fr,78,"Brooklyn, NY",True
+2016,P021,Lucas Lindqvist,9,G,Fr,73,"Minneapolis, MN",True
+2016,P022,Hunter Vandermeer,53,G,Fr,74,"Columbus, OH",False
+2016,P023,Malachi Yamamoto,48,G,Fr,77,"Boston, MA",False
+2017,P001,Desmond Farrier,4,F,Jr,77,"St. Louis, MO",True
+2017,P002,Trey Ibarra,52,F,Jr,79,"Phoenix, AZ",True
+2017,P004,Silas Baptiste,11,G,Jr,75,"Louisville, KY",True
+2017,P006,Tobias Delacroix,24,C,Sr,81,"Milwaukee, WI",True
+2017,P007,Owen Quintero,50,G,Sr,73,"Toronto, ON",True
+2017,P014,Zavier Delacroix,10,G,Jr,75,"Minneapolis, MN",True
+2017,P016,Cole Zielinski,8,F,Jr,78,"Brooklyn, NY",True
+2017,P018,Kobe Kalinowski,49,G,So,71,"Phoenix, AZ",True
+2017,P019,Terrance Eskridge,45,C,So,80,"Indianapolis, IN",True
+2017,P021,Lucas Lindqvist,9,G,So,73,"Minneapolis, MN",True
+2017,P024,Owen Grzelak,14,G,Fr,76,"Cleveland, OH",True
+2017,P025,Jaden Vandermeer,29,F,Fr,78,"Grand Rapids, MI",True
+2017,P026,Bennett Stankovic,22,G,Fr,73,"Nashville, TN",True
+2017,P027,Adrien Beaudry,7,G,Fr,73,"Los Angeles, CA",False
+2017,P028,Jaden Baptiste,13,C,Fr,80,"Nashville, TN",False
+2018,P001,Desmond Farrier,4,F,Sr,77,"St. Louis, MO",True
+2018,P002,Trey Ibarra,52,F,Sr,79,"Phoenix, AZ",True
+2018,P004,Silas Baptiste,11,G,Sr,75,"Louisville, KY",True
+2018,P014,Zavier Delacroix,10,G,Sr,75,"Minneapolis, MN",True
+2018,P016,Cole Zielinski,8,F,Sr,78,"Brooklyn, NY",True
+2018,P018,Kobe Kalinowski,49,G,Jr,71,"Phoenix, AZ",True
+2018,P019,Terrance Eskridge,45,C,Jr,80,"Indianapolis, IN",True
+2018,P021,Lucas Lindqvist,9,G,Jr,73,"Minneapolis, MN",True
+2018,P024,Owen Grzelak,14,G,So,76,"Cleveland, OH",True
+2018,P025,Jaden Vandermeer,29,F,So,78,"Grand Rapids, MI",True
+2018,P026,Bennett Stankovic,22,G,So,73,"Nashville, TN",True
+2018,P027,Adrien Beaudry,7,G,So,73,"Los Angeles, CA",True
+2018,P028,Jaden Baptiste,13,C,So,80,"Nashville, TN",True
+2018,P029,Devin Gundersen,38,G,Fr,73,"Boston, MA",False
+2018,P030,Brandon Gundersen,23,F,Fr,80,"Grand Rapids, MI",False
+2019,P018,Kobe Kalinowski,49,G,Sr,71,"Phoenix, AZ",True
+2019,P019,Terrance Eskridge,45,C,Sr,80,"Indianapolis, IN",True
+2019,P021,Lucas Lindqvist,9,G,Sr,73,"Minneapolis, MN",True
+2019,P024,Owen Grzelak,14,G,Jr,76,"Cleveland, OH",True
+2019,P025,Jaden Vandermeer,29,F,Jr,78,"Grand Rapids, MI",True
+2019,P026,Bennett Stankovic,22,G,Jr,73,"Nashville, TN",True
+2019,P028,Jaden Baptiste,13,C,Jr,80,"Nashville, TN",True
+2019,P029,Devin Gundersen,38,G,So,73,"Boston, MA",True
+2019,P030,Brandon Gundersen,23,F,So,80,"Grand Rapids, MI",True
+2019,P031,Julian Danforth,6,G,Fr,77,"St. Louis, MO",True
+2019,P032,Ronan Rasmussen,52,G,Fr,72,"Brooklyn, NY",True
+2019,P033,Rowan Baptiste,8,G,Fr,75,"Louisville, KY",True
+2019,P034,Jaden Rasmussen,51,G,Fr,76,"Minneapolis, MN",True
+2019,P035,Eli Fontaine,19,F,Fr,77,"Louisville, KY",False
+2019,P036,Quentin Castellano,10,F,Fr,81,"Detroit, MI",False
+2020,P024,Owen Grzelak,14,G,Sr,76,"Cleveland, OH",True
+2020,P025,Jaden Vandermeer,29,F,Sr,78,"Grand Rapids, MI",True
+2020,P026,Bennett Stankovic,22,G,Sr,73,"Nashville, TN",True
+2020,P028,Jaden Baptiste,13,C,Sr,80,"Nashville, TN",True
+2020,P029,Devin Gundersen,38,G,Jr,73,"Boston, MA",True
+2020,P030,Brandon Gundersen,23,F,Jr,80,"Grand Rapids, MI",True
+2020,P031,Julian Danforth,6,G,So,77,"St. Louis, MO",True
+2020,P032,Ronan Rasmussen,52,G,So,72,"Brooklyn, NY",True
+2020,P033,Rowan Baptiste,8,G,So,75,"Louisville, KY",True
+2020,P034,Jaden Rasmussen,51,G,So,76,"Minneapolis, MN",True
+2020,P037,Micah Farrier,12,G,Fr,77,"Brooklyn, NY",True
+2020,P038,Julian Whitcomb,33,F,Fr,80,"Cleveland, OH",True
+2020,P039,Grant Grzelak,19,G,Fr,74,"Boston, MA",True
+2020,P040,Xavi Hollenbeck,47,F,Fr,81,"St. Louis, MO",False
+2020,P041,Adrien Montoya,17,C,Fr,81,"St. Louis, MO",False
+2021,P029,Devin Gundersen,38,G,Sr,73,"Boston, MA",True
+2021,P030,Brandon Gundersen,23,F,Sr,80,"Grand Rapids, MI",True
+2021,P031,Julian Danforth,6,G,Jr,77,"St. Louis, MO",True
+2021,P032,Ronan Rasmussen,52,G,Jr,72,"Brooklyn, NY",True
+2021,P033,Rowan Baptiste,8,G,Jr,75,"Louisville, KY",True
+2021,P034,Jaden Rasmussen,51,G,Jr,76,"Minneapolis, MN",True
+2021,P037,Micah Farrier,12,G,So,77,"Brooklyn, NY",True
+2021,P038,Julian Whitcomb,33,F,So,80,"Cleveland, OH",True
+2021,P039,Grant Grzelak,19,G,So,74,"Boston, MA",True
+2021,P040,Xavi Hollenbeck,47,F,So,81,"St. Louis, MO",True
+2021,P041,Adrien Montoya,17,C,So,81,"St. Louis, MO",True
+2021,P042,Brandon Fontaine,53,C,Fr,80,"Boston, MA",True
+2021,P043,Cole Ustinov,43,F,Fr,78,"Louisville, KY",True
+2021,P044,Desmond Baptiste,0,C,Fr,81,"Nashville, TN",False
+2021,P045,Zavier Lindqvist,37,F,Fr,81,"Phoenix, AZ",False
+2022,P031,Julian Danforth,6,G,Sr,77,"St. Louis, MO",True
+2022,P033,Rowan Baptiste,8,G,Sr,75,"Louisville, KY",True
+2022,P034,Jaden Rasmussen,51,G,Sr,76,"Minneapolis, MN",True
+2022,P037,Micah Farrier,12,G,Jr,77,"Brooklyn, NY",True
+2022,P038,Julian Whitcomb,33,F,Jr,80,"Cleveland, OH",True
+2022,P039,Grant Grzelak,19,G,Jr,74,"Boston, MA",True
+2022,P040,Xavi Hollenbeck,47,F,Jr,81,"St. Louis, MO",True
+2022,P042,Brandon Fontaine,53,C,So,80,"Boston, MA",True
+2022,P043,Cole Ustinov,43,F,So,78,"Louisville, KY",True
+2022,P044,Desmond Baptiste,0,C,So,81,"Nashville, TN",True
+2022,P045,Zavier Lindqvist,37,F,So,81,"Phoenix, AZ",True
+2022,P046,Zavier Cavanaugh,40,F,Fr,80,"Minneapolis, MN",True
+2022,P047,Eli Pellegrini,34,G,Fr,76,"Minneapolis, MN",True
+2022,P048,Moussa Baptiste,11,F,Fr,80,"St. Louis, MO",False
+2022,P049,Jaden Gundersen,31,F,Fr,78,"Los Angeles, CA",False
+2023,P037,Micah Farrier,12,G,Sr,77,"Brooklyn, NY",True
+2023,P038,Julian Whitcomb,33,F,Sr,80,"Cleveland, OH",True
+2023,P039,Grant Grzelak,19,G,Sr,74,"Boston, MA",True
+2023,P040,Xavi Hollenbeck,47,F,Sr,81,"St. Louis, MO",True
+2023,P042,Brandon Fontaine,53,C,Jr,80,"Boston, MA",True
+2023,P043,Cole Ustinov,43,F,Jr,78,"Louisville, KY",True
+2023,P044,Desmond Baptiste,0,C,Jr,81,"Nashville, TN",True
+2023,P045,Zavier Lindqvist,37,F,Jr,81,"Phoenix, AZ",True
+2023,P046,Zavier Cavanaugh,40,F,So,80,"Minneapolis, MN",True
+2023,P047,Eli Pellegrini,34,G,So,76,"Minneapolis, MN",True
+2023,P048,Moussa Baptiste,11,F,So,80,"St. Louis, MO",True
+2023,P050,Jaden Larsson,51,F,Fr,77,"Chicago, IL",True
+2023,P051,Wesley Hollenbeck,44,G,Fr,74,"St. Louis, MO",True
+2023,P052,Trey Baptiste,29,C,Fr,83,"Phoenix, AZ",False
+2023,P053,Duncan Hollenbeck,46,G,Fr,74,"Houston, TX",False
+2024,P042,Brandon Fontaine,53,C,Sr,80,"Boston, MA",True
+2024,P043,Cole Ustinov,43,F,Sr,78,"Louisville, KY",True
+2024,P044,Desmond Baptiste,0,C,Sr,81,"Nashville, TN",True
+2024,P045,Zavier Lindqvist,37,F,Sr,81,"Phoenix, AZ",True
+2024,P047,Eli Pellegrini,34,G,Jr,76,"Minneapolis, MN",True
+2024,P048,Moussa Baptiste,11,F,Jr,80,"St. Louis, MO",True
+2024,P050,Jaden Larsson,51,F,So,77,"Chicago, IL",True
+2024,P051,Wesley Hollenbeck,44,G,So,74,"St. Louis, MO",True
+2024,P053,Duncan Hollenbeck,46,G,So,74,"Houston, TX",True
+2024,P054,Cole Lindqvist,48,G,Fr,77,"Toronto, ON",True
+2024,P055,Amir Montoya,18,F,Fr,81,"Cleveland, OH",True
+2024,P056,Caleb Gundersen,26,G,Fr,74,"Nashville, TN",True
+2024,P057,Lucas Stankovic,36,F,Fr,77,"Ann Arbor, MI",True
+2024,P058,Zavier Farrier,4,G,Fr,77,"Atlanta, GA",False
+2024,P059,Xavi Fontaine,22,F,Fr,78,"Brooklyn, NY",False
