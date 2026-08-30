@@ -68,6 +68,8 @@ worker/
   deploy-pages.yml
 other-assignments/  Coursework (see "Other Assignments" below)
   pandas-fundamentals-go-blue/
+  pandas-grouping-hardwood/
+  pandas-text-parsing-yost/
 ```
 
 ## Notes
@@ -83,6 +85,8 @@ This repo also carries coursework that is independent of the flight-price app.
 | # | Assignment | Topic | Points |
 |---|---|---|---|
 | 1 | [🏈 Go Blue: A Pandas Data Exploration](other-assignments/pandas-fundamentals-go-blue/) | pandas fundamentals & Python data manipulation | 100 |
+| 2 | [🏀 Hardwood: Grouping, Windows & Reshaping](other-assignments/pandas-grouping-hardwood/) | MultiIndexes, named aggregation, window functions, ranking, streaks | 100 |
+| 3 | [🏒 The Yost Feed: Regex, Text & Time](other-assignments/pandas-text-parsing-yost/) | regular expressions, string extraction, clock arithmetic | 100 |
 
 Each assignment is a self-contained folder: a Jupyter notebook with ten
 questions, a dataset, public asserts that students run themselves, hidden

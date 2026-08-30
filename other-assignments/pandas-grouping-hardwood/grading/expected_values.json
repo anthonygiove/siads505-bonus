@@ -1,0 +1,775 @@
+{
+  "q10_class_scoring": {
+    "columns": [
+      "G",
+      "F",
+      "C"
+    ],
+    "data": [
+      [
+        4.3,
+        6.25,
+        12.68
+      ],
+      [
+        5.54,
+        9.27,
+        12.85
+      ],
+      [
+        5.69,
+        11.65,
+        12.14
+      ],
+      [
+        7.16,
+        12.57,
+        12.33
+      ]
+    ],
+    "index": [
+      "Fr",
+      "So",
+      "Jr",
+      "Sr"
+    ],
+    "index_name": "class",
+    "kind": "DataFrame"
+  },
+  "q1_box_head": {
+    "columns": [
+      "season",
+      "player",
+      "minutes",
+      "points"
+    ],
+    "data": [
+      [
+        2015,
+        "Desmond Farrier",
+        "3:43",
+        4.0
+      ],
+      [
+        2015,
+        "Trey Ibarra",
+        "17:43",
+        4.0
+      ],
+      [
+        2015,
+        "Caleb Stankovic",
+        "26:06",
+        7.0
+      ],
+      [
+        2015,
+        "Silas Baptiste",
+        "DNP",
+        null
+      ]
+    ],
+    "index": [
+      [
+        "2015-G01",
+        "P001"
+      ],
+      [
+        "2015-G01",
+        "P002"
+      ],
+      [
+        "2015-G01",
+        "P003"
+      ],
+      [
+        "2015-G01",
+        "P004"
+      ]
+    ],
+    "index_name": [
+      "game_id",
+      "player_id"
+    ],
+    "kind": "DataFrame"
+  },
+  "q1_box_shape": {
+    "kind": "tuple",
+    "values": [
+      4160,
+      17
+    ]
+  },
+  "q1_games_shape": {
+    "kind": "tuple",
+    "values": [
+      320,
+      11
+    ]
+  },
+  "q2_split_shooting": {
+    "columns": [
+      "fg_made",
+      "fg_att",
+      "fg3_made",
+      "fg3_att",
+      "ft_made",
+      "ft_att"
+    ],
+    "data": [
+      [
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        2.0,
+        2.0
+      ],
+      [
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        2.0,
+        3.0
+      ],
+      [
+        3.0,
+        4.0,
+        1.0,
+        1.0,
+        0.0,
+        2.0
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        5.0,
+        8.0,
+        1.0,
+        1.0,
+        2.0,
+        2.0
+      ]
+    ],
+    "index": [
+      [
+        "2015-G01",
+        "P001"
+      ],
+      [
+        "2015-G01",
+        "P002"
+      ],
+      [
+        "2015-G01",
+        "P003"
+      ],
+      [
+        "2015-G01",
+        "P004"
+      ],
+      [
+        "2015-G01",
+        "P005"
+      ],
+      [
+        "2015-G01",
+        "P006"
+      ]
+    ],
+    "index_name": [
+      "game_id",
+      "player_id"
+    ],
+    "kind": "DataFrame"
+  },
+  "q2_totals": {
+    "kind": "tuple",
+    "values": [
+      9599.0,
+      18039.0,
+      2471.0,
+      5902.0,
+      4632.0,
+      5881.0
+    ]
+  },
+  "q3_minutes_played": {
+    "index": [
+      [
+        "2015-G01",
+        "P001"
+      ],
+      [
+        "2015-G01",
+        "P002"
+      ],
+      [
+        "2015-G01",
+        "P003"
+      ],
+      [
+        "2015-G01",
+        "P004"
+      ],
+      [
+        "2015-G01",
+        "P005"
+      ],
+      [
+        "2015-G01",
+        "P006"
+      ]
+    ],
+    "index_name": [
+      "game_id",
+      "player_id"
+    ],
+    "kind": "Series",
+    "name": "minutes_played",
+    "values": [
+      3.72,
+      17.72,
+      26.1,
+      null,
+      10.88,
+      30.9
+    ]
+  },
+  "q3_total": {
+    "kind": "scalar",
+    "value": 64550.03
+  },
+  "q4_means": {
+    "kind": "tuple",
+    "values": [
+      0.501596,
+      0.404906,
+      0.775845,
+      0.613263
+    ]
+  },
+  "q4_shooting_rates": {
+    "columns": [
+      "fg_pct",
+      "fg3_pct",
+      "ft_pct",
+      "true_shooting"
+    ],
+    "data": [
+      [
+        1.0,
+        null,
+        1.0,
+        1.064
+      ],
+      [
+        1.0,
+        null,
+        0.667,
+        0.862
+      ],
+      [
+        0.75,
+        1.0,
+        0.0,
+        0.717
+      ],
+      [
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        1.0,
+        1.0,
+        null,
+        1.5
+      ],
+      [
+        0.625,
+        1.0,
+        1.0,
+        0.732
+      ]
+    ],
+    "index": [
+      [
+        "2015-G01",
+        "P001"
+      ],
+      [
+        "2015-G01",
+        "P002"
+      ],
+      [
+        "2015-G01",
+        "P003"
+      ],
+      [
+        "2015-G01",
+        "P004"
+      ],
+      [
+        "2015-G01",
+        "P005"
+      ],
+      [
+        "2015-G01",
+        "P006"
+      ]
+    ],
+    "index_name": [
+      "game_id",
+      "player_id"
+    ],
+    "kind": "DataFrame"
+  },
+  "q5_player_season_totals": {
+    "columns": [
+      "games_played",
+      "minutes",
+      "points",
+      "rebounds",
+      "assists",
+      "ppg"
+    ],
+    "data": [
+      [
+        32.0,
+        796.3,
+        206.0,
+        148.0,
+        48.0,
+        6.4
+      ],
+      [
+        15.0,
+        161.8,
+        67.0,
+        21.0,
+        6.0,
+        4.5
+      ],
+      [
+        11.0,
+        45.1,
+        13.0,
+        11.0,
+        4.0,
+        1.2
+      ],
+      [
+        32.0,
+        642.3,
+        286.0,
+        111.0,
+        24.0,
+        8.9
+      ],
+      [
+        32.0,
+        1052.0,
+        616.0,
+        189.0,
+        50.0,
+        19.2
+      ],
+      [
+        16.0,
+        161.4,
+        81.0,
+        15.0,
+        17.0,
+        5.1
+      ],
+      [
+        20.0,
+        350.2,
+        105.0,
+        22.0,
+        45.0,
+        5.2
+      ],
+      [
+        21.0,
+        330.7,
+        101.0,
+        56.0,
+        15.0,
+        4.8
+      ],
+      [
+        32.0,
+        1015.8,
+        514.0,
+        230.0,
+        54.0,
+        16.1
+      ],
+      [
+        12.0,
+        53.6,
+        11.0,
+        4.0,
+        12.0,
+        0.9
+      ],
+      [
+        32.0,
+        1159.3,
+        512.0,
+        275.0,
+        60.0,
+        16.0
+      ],
+      [
+        28.0,
+        481.4,
+        127.0,
+        87.0,
+        30.0,
+        4.5
+      ]
+    ],
+    "index": [
+      [
+        2015,
+        "Caleb Stankovic"
+      ],
+      [
+        2015,
+        "Cole Yamamoto"
+      ],
+      [
+        2015,
+        "Desmond Farrier"
+      ],
+      [
+        2015,
+        "Marcus Jankowski"
+      ],
+      [
+        2015,
+        "Moussa Novotny"
+      ],
+      [
+        2015,
+        "Nolan Abrams"
+      ],
+      [
+        2015,
+        "Owen Quintero"
+      ],
+      [
+        2015,
+        "Quentin Fontaine"
+      ],
+      [
+        2015,
+        "Ronan Halvorsen"
+      ],
+      [
+        2015,
+        "Silas Baptiste"
+      ],
+      [
+        2015,
+        "Tobias Delacroix"
+      ],
+      [
+        2015,
+        "Trey Ibarra"
+      ]
+    ],
+    "index_name": [
+      "season",
+      "player"
+    ],
+    "kind": "DataFrame"
+  },
+  "q5_shape": {
+    "kind": "tuple",
+    "values": [
+      130,
+      6
+    ]
+  },
+  "q6_leading_scorer": {
+    "columns": [
+      "player",
+      "points"
+    ],
+    "data": [
+      [
+        "Moussa Novotny",
+        25
+      ],
+      [
+        "Moussa Novotny",
+        22
+      ],
+      [
+        "Tobias Delacroix",
+        23
+      ],
+      [
+        "Moussa Novotny",
+        19
+      ],
+      [
+        "Ronan Halvorsen",
+        25
+      ],
+      [
+        "Tobias Delacroix",
+        25
+      ],
+      [
+        "Ronan Halvorsen",
+        17
+      ],
+      [
+        "Moussa Novotny",
+        23
+      ],
+      [
+        "Moussa Novotny",
+        22
+      ],
+      [
+        "Moussa Novotny",
+        24
+      ]
+    ],
+    "index": [
+      "2015-G01",
+      "2015-G02",
+      "2015-G03",
+      "2015-G04",
+      "2015-G05",
+      "2015-G06",
+      "2015-G07",
+      "2015-G08",
+      "2015-G09",
+      "2015-G10"
+    ],
+    "index_name": "game_id",
+    "kind": "DataFrame"
+  },
+  "q7_mean": {
+    "kind": "scalar",
+    "value": 82.172143
+  },
+  "q7_rolling_form": {
+    "index": [
+      "2015-G01",
+      "2015-G02",
+      "2015-G03",
+      "2015-G04",
+      "2015-G05",
+      "2015-G06",
+      "2015-G07",
+      "2015-G08",
+      "2015-G09",
+      "2015-G10"
+    ],
+    "index_name": "game_id",
+    "kind": "Series",
+    "name": "rolling_points",
+    "values": [
+      null,
+      null,
+      null,
+      null,
+      83.0,
+      86.0,
+      78.4,
+      80.8,
+      84.0,
+      87.0
+    ]
+  },
+  "q8_season_leaderboard": {
+    "columns": [
+      "games_played",
+      "points",
+      "ppg",
+      "rank"
+    ],
+    "data": [
+      [
+        32.0,
+        616.0,
+        19.2,
+        1.0
+      ],
+      [
+        32.0,
+        514.0,
+        16.1,
+        2.0
+      ],
+      [
+        32.0,
+        512.0,
+        16.0,
+        3.0
+      ],
+      [
+        32.0,
+        286.0,
+        8.9,
+        4.0
+      ],
+      [
+        32.0,
+        206.0,
+        6.4,
+        5.0
+      ],
+      [
+        20.0,
+        105.0,
+        5.2,
+        6.0
+      ],
+      [
+        21.0,
+        101.0,
+        4.8,
+        7.0
+      ],
+      [
+        28.0,
+        127.0,
+        4.5,
+        8.0
+      ],
+      [
+        32.0,
+        564.0,
+        17.6,
+        1.0
+      ],
+      [
+        32.0,
+        442.0,
+        13.8,
+        2.0
+      ],
+      [
+        32.0,
+        434.0,
+        13.6,
+        3.0
+      ],
+      [
+        32.0,
+        287.0,
+        9.0,
+        4.0
+      ]
+    ],
+    "index": [
+      [
+        2015,
+        "Moussa Novotny"
+      ],
+      [
+        2015,
+        "Ronan Halvorsen"
+      ],
+      [
+        2015,
+        "Tobias Delacroix"
+      ],
+      [
+        2015,
+        "Marcus Jankowski"
+      ],
+      [
+        2015,
+        "Caleb Stankovic"
+      ],
+      [
+        2015,
+        "Owen Quintero"
+      ],
+      [
+        2015,
+        "Quentin Fontaine"
+      ],
+      [
+        2015,
+        "Trey Ibarra"
+      ],
+      [
+        2016,
+        "Tobias Delacroix"
+      ],
+      [
+        2016,
+        "Terrance Eskridge"
+      ],
+      [
+        2016,
+        "Cole Zielinski"
+      ],
+      [
+        2016,
+        "Owen Quintero"
+      ]
+    ],
+    "index_name": [
+      "season",
+      "player"
+    ],
+    "kind": "DataFrame"
+  },
+  "q9_longest_win_streak": {
+    "index": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "index_name": "season",
+    "kind": "Series",
+    "name": "longest_win_streak",
+    "values": [
+      5,
+      4,
+      7,
+      9,
+      17,
+      5,
+      10,
+      5,
+      3,
+      5
+    ]
+  }
+}

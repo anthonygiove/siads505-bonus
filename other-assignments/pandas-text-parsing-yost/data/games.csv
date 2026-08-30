@@ -1,0 +1,42 @@
+game_id,season,game_no,date,opponent,opponent_code,site,venue,michigan_goals,opponent_goals,result,overtime,attendance
+2024-G01,2024,1,2023-10-04,Niagara,NIAG,Away,Dwyer Arena,6,1,W,0,5242
+2024-G02,2024,2,2023-10-08,Ferris State,FSU,Away,Ewigleben Arena,5,1,W,0,2692
+2024-G03,2024,3,2023-10-12,Wisconsin,WISC,Away,LaBahn Arena,2,0,W,0,4373
+2024-G04,2024,4,2023-10-16,Lindenwood,LIN,Away,Centene Community Ice Center,2,5,L,0,7602
+2024-G05,2024,5,2023-10-20,Denver,DU,Home,Yost Ice Arena,9,1,W,0,5722
+2024-G06,2024,6,2023-10-23,Niagara,NIAG,Home,Yost Ice Arena,5,0,W,0,6176
+2024-G07,2024,7,2023-10-27,Lake Superior State,LSSU,Neutral,Xcel Energy Center,7,2,W,0,10248
+2024-G08,2024,8,2023-10-31,Bowling Green,BGSU,Home,Yost Ice Arena,3,0,W,0,5827
+2024-G09,2024,9,2023-11-04,Wisconsin,WISC,Home,Yost Ice Arena,3,4,L,1,6073
+2024-G10,2024,10,2023-11-08,Ohio State,OSU,Away,Value City Arena,1,4,L,0,4819
+2024-G11,2024,11,2023-11-12,North Dakota,UND,Away,Ralph Engelstad Arena,2,6,L,0,9149
+2024-G12,2024,12,2023-11-16,Western Michigan,WMU,Away,Lawson Ice Arena,1,6,L,0,7543
+2024-G13,2024,13,2023-11-19,Ohio State,OSU,Home,Yost Ice Arena,2,1,W,1,5668
+2024-G14,2024,14,2023-11-23,Michigan State,MSU,Home,Yost Ice Arena,2,1,W,1,5627
+2024-G15,2024,15,2023-11-27,Lake Superior State,LSSU,Home,Yost Ice Arena,0,1,L,0,6185
+2024-G16,2024,16,2023-12-01,Minnesota,MINN,Away,3M Arena at Mariucci,4,3,W,0,7674
+2024-G17,2024,17,2023-12-05,Michigan State,MSU,Away,Munn Ice Arena,1,9,L,0,3365
+2024-G18,2024,18,2023-12-09,Lindenwood,LIN,Away,Centene Community Ice Center,3,1,W,0,8776
+2024-G19,2024,19,2023-12-13,Lake Superior State,LSSU,Home,Yost Ice Arena,9,0,W,0,5312
+2024-G20,2024,20,2023-12-17,Boston College,BC,Away,Conte Forum,0,5,L,0,6905
+2024-G21,2024,21,2023-12-21,Union,UNION,Away,Messa Rink,6,2,W,0,12511
+2024-G22,2024,22,2023-12-24,Denver,DU,Home,Yost Ice Arena,2,3,L,1,6146
+2024-G23,2024,23,2023-12-28,Wisconsin,WISC,Away,LaBahn Arena,1,5,L,0,9668
+2024-G24,2024,24,2024-01-01,Lake Superior State,LSSU,Home,Yost Ice Arena,3,1,W,0,6012
+2024-G25,2024,25,2024-01-05,Lake Superior State,LSSU,Away,Taffy Abel Arena,9,1,W,0,5563
+2024-G26,2024,26,2024-01-09,Western Michigan,WMU,Home,Yost Ice Arena,3,5,L,0,5500
+2024-G27,2024,27,2024-01-13,Ohio State,OSU,Home,Yost Ice Arena,0,4,L,0,5686
+2024-G28,2024,28,2024-01-17,Lake Superior State,LSSU,Home,Yost Ice Arena,1,2,L,1,5834
+2024-G29,2024,29,2024-01-20,Notre Dame,ND,Home,Yost Ice Arena,2,1,W,0,5642
+2024-G30,2024,30,2024-01-24,Notre Dame,ND,Away,Compton Family Ice Arena,4,3,W,1,10056
+2024-G31,2024,31,2024-01-28,Bowling Green,BGSU,Home,Yost Ice Arena,7,4,W,0,5678
+2024-G32,2024,32,2024-02-01,Western Michigan,WMU,Neutral,Xcel Energy Center,5,6,L,0,16016
+2024-G33,2024,33,2024-02-05,Penn State,PSU,Home,Yost Ice Arena,6,1,W,0,5574
+2024-G34,2024,34,2024-02-09,Ohio State,OSU,Home,Yost Ice Arena,4,6,L,0,5895
+2024-G35,2024,35,2024-02-13,Wisconsin,WISC,Home,Yost Ice Arena,3,6,L,0,5977
+2024-G36,2024,36,2024-02-17,Penn State,PSU,Home,Yost Ice Arena,1,0,W,0,5932
+2024-G37,2024,37,2024-02-21,Niagara,NIAG,Neutral,Little Caesars Arena,3,1,W,0,11940
+2024-G38,2024,38,2024-02-24,Michigan State,MSU,Away,Munn Ice Arena,0,1,L,0,7430
+2024-G39,2024,39,2024-02-28,Niagara,NIAG,Home,Yost Ice Arena,7,3,W,0,6009
+2024-G40,2024,40,2024-03-03,Denver,DU,Away,Magness Arena,0,5,L,0,5590
+2024-G41,2024,41,2024-03-07,Bowling Green,BGSU,Away,Slater Family Ice Arena,9,2,W,0,5929
