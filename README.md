@@ -66,6 +66,8 @@ worker/
   amadeus-proxy.js  Optional Cloudflare Worker
 .github/workflows/
   deploy-pages.yml
+other-assignments/  Coursework (see "Other Assignments" below)
+  pandas-fundamentals-go-blue/
 ```
 
 ## Notes
@@ -73,6 +75,20 @@ worker/
 - Amadeus **test** data may not include every real-world route or fare; production keys return live offers.
 - Return date is required for round-trip search in the UI and API.
 - Prices are indicative offers from Amadeus; always confirm on the airline or OTA before booking.
+
+## Other Assignments
+
+This repo also carries coursework that is independent of the flight-price app.
+
+| # | Assignment | Topic | Points |
+|---|---|---|---|
+| 1 | [🏈 Go Blue: A Pandas Data Exploration](other-assignments/pandas-fundamentals-go-blue/) | pandas fundamentals & Python data manipulation | 100 |
+
+Each assignment is a self-contained folder: a Jupyter notebook with ten
+questions, a dataset, public asserts that students run themselves, hidden
+asserts that carry the grade, and an autograder. See
+[`other-assignments/`](other-assignments/) for how they are structured and how
+to grade them.
 
 ## License
 
